@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -138,7 +138,7 @@ export default function Home() {
               price: "$4.25",
               rating: 4,
               reviewCount: "1.9k",
-              imageSrc: "https://pixabay.com/get/gd2625a9473a2578407691c285e86b75e2c74879a03adb36087daf5b663b37fdfb68d11b4c7784ff210911628da8d892b0723568d3f32af0cd01edd51dfdc2805_1280.jpg",
+              imageSrc: "https://pixabay.com/get/gd2625a9473a2578407691c285e86b75e2c74879a03adb36087daf5b663b37fdfb68d11b4c7784ff210911628da8d892b0723568d3f32af0cd01edd0df96c074bef_1280.jpg",
               imageAlt: "Black americano coffee"
             },
             {
@@ -182,8 +182,7 @@ export default function Home() {
               company: "Creative Agency",
               rating: 5,
               imageSrc: "https://pixabay.com/get/g505a161c060626f97d3cb650140bbb733653e9e4cab0f347e570665ee487993d252b13eec12557a2c160f8b27fe985a9ea1c544b1a5d7a7800062ece253ca1ba_1280.jpg",
-              imageAlt: "Sarah Mitchell",
-              content: "The coffee here is absolutely exceptional. Every morning starts perfectly with their expertly crafted espresso."
+              imageAlt: "Sarah Mitchell"
             },
             {
               id: "2",
@@ -192,8 +191,7 @@ export default function Home() {
               company: "Tech Solutions",
               rating: 5,
               imageSrc: "https://pixabay.com/get/gae0570e417141585996ae42aeea17c25c5baa033995c3528cb7b6c0f52fd913601c845663af402fe9ac70da0d149adc136cb3f6b455b9377de2b36d969600e9f_1280.jpg",
-              imageAlt: "Michael Chen",
-              content: "Best coffee shop in the city! The baristas really know their craft and the atmosphere is perfect for working."
+              imageAlt: "Michael Chen"
             },
             {
               id: "3",
@@ -202,8 +200,7 @@ export default function Home() {
               company: "Design Studio",
               rating: 5,
               imageSrc: "https://pixabay.com/get/geea3fce62c0a29b55ff53c145ef5dd5d637374b899b72d65112873f8bed9ce7543cec072bf89893e5f6548063035e5a7119863fc56838c5614b16b3458e1388d_1280.jpg",
-              imageAlt: "Emma Rodriguez",
-              content: "I love the sustainable practices and community focus. Great coffee that makes a positive impact."
+              imageAlt: "Emma Rodriguez"
             },
             {
               id: "4",
@@ -212,8 +209,7 @@ export default function Home() {
               company: "Local Startup",
               rating: 5,
               imageSrc: "https://pixabay.com/get/gcfdfa27e65692377b7376ec8ed110516a4c0ad3a0416948220a22fcfad36684a1a688fe8c8fd77d8ce9b491fea50b0deafd37063c5acdbf1b157b777d744db12_1280.jpg",
-              imageAlt: "David Thompson",
-              content: "Premium quality beans and expert preparation. This place has become my daily ritual for good reason."
+              imageAlt: "David Thompson"
             }
           ]}
         />
